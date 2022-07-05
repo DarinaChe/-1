@@ -9,4 +9,4 @@ list_new = []
 for i in range (len(list)):
     if list[i] % 3 ==0 and list[i] % 5 !=0:
         list_new.append(list[i])
-print(list_new)
+print("Числа, делящиеся на 3, но не делящиеся на 5: ", list_new)
